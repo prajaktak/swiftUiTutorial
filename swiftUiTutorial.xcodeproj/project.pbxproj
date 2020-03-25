@@ -165,6 +165,17 @@
 			path = SupportingViews;
 			sourceTree = "<group>";
 		};
+		F9AEEBDB242B89AF004C1464 /* DrawingPathsAndShapes */ = {
+			isa = PBXGroup;
+			children = (
+				F99E548A242ABA1C009ED0F4 /* Badge.swift */,
+				F99E548E242ABFFE009ED0F4 /* BadgeSymbol.swift */,
+				F99E5490242AC192009ED0F4 /* RotatedBadgeSymbolView.swift */,
+				F99E548C242ABF22009ED0F4 /* BadgeBackground.swift */,
+			);
+			path = DrawingPathsAndShapes;
+			sourceTree = "<group>";
+		};
 		F9B537612422EE1200B19A95 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +199,7 @@
 		F9B5376C2422EE1200B19A95 /* swiftUiTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				F9AEEBDB242B89AF004C1464 /* DrawingPathsAndShapes */,
 				F99E5487242AB928009ED0F4 /* SupportingViews */,
 				F9702D8C24290E9000C9EE70 /* Resources */,
 				F9702D832428F84400C9EE70 /* Models */,
@@ -197,10 +209,6 @@
 				F9702D8A24290D9700C9EE70 /* LandmarkRow.swift */,
 				F9703B052429137E003E50BC /*  LandmarkList.swift */,
 				F99E5488242AB9A3009ED0F4 /* HexagonParameters.swift */,
-				F99E548A242ABA1C009ED0F4 /* Badge.swift */,
-				F99E548E242ABFFE009ED0F4 /* BadgeSymbol.swift */,
-				F99E5490242AC192009ED0F4 /* RotatedBadgeSymbolView.swift */,
-				F99E548C242ABF22009ED0F4 /* BadgeBackground.swift */,
 				F9B537732422EE1500B19A95 /* Assets.xcassets */,
 				F9B537782422EE1500B19A95 /* LaunchScreen.storyboard */,
 				F9B5377B2422EE1500B19A95 /* Info.plist */,
