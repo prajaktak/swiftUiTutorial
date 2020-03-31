@@ -98,6 +98,7 @@
 		F9B537852422EE1500B19A95 /* swiftUiTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B537842422EE1500B19A95 /* swiftUiTutorialTests.swift */; };
 		F9B537902422EE1500B19A95 /* swiftUiTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B5378F2422EE1500B19A95 /* swiftUiTutorialUITests.swift */; };
 		F9D665C02433E4C600E739BD /* WatchMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D665BF2433E4C600E739BD /* WatchMapView.swift */; };
+		F9D665C12433EBEC00E739BD /*  LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9703B052429137E003E50BC /*  LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -704,6 +705,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9820B9224326EC1001F2203 /* HostingController.swift in Sources */,
+				F9D665C12433EBEC00E739BD /*  LandmarkList.swift in Sources */,
 				F9D665C02433E4C600E739BD /* WatchMapView.swift in Sources */,
 				F9820BAF24327949001F2203 /* Data.swift in Sources */,
 				F9820BB124327949001F2203 /* LandmarkRow.swift in Sources */,
