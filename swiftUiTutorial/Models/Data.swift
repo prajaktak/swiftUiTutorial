@@ -5,10 +5,11 @@
 //  Created by Prajakta Kulkarni on 23/03/2020.
 //  Copyright © 2020 Prajakta Kulkarni. All rights reserved.
 //
-
+import Foundation
 import UIKit
 import SwiftUI
 import CoreLocation
+import ImageIO
 
 let landmarkData: [Landmark] = load("landmarkData.json")
 let hikeData: [Hike] = load("hikeData.json")
