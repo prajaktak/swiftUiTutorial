@@ -6,7 +6,9 @@
 //  Copyright © 2020 Prajakta Kulkarni. All rights reserved.
 //
 import Foundation
-import UIKit
+#if !os(macOS)
+    import UIKit
+#endif
 import SwiftUI
 import CoreLocation
 import ImageIO
