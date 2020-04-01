@@ -128,6 +128,8 @@
 		F9E9B94B24352FE400D4184A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E5485242A3442009ED0F4 /* UserData.swift */; };
 		F9E9B94C24352FE400D4184A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9702D862428FA0100C9EE70 /* Data.swift */; };
 		F9E9B94D24352FE400D4184A /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AEEBDF242B9C08004C1464 /* Hike.swift */; };
+		F9E9B94F24353D8400D4184A /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9B94E24353D8400D4184A /* LandmarkRow.swift */; };
+		F9E9B9512435400800D4184A /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9B9502435400800D4184A /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -290,6 +292,8 @@
 		F9E9B912243529EF00D4184A /* MacLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E9B916243529EF00D4184A /* MacLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITests.swift; sourceTree = "<group>"; };
 		F9E9B918243529EF00D4184A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E9B94E24353D8400D4184A /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		F9E9B9502435400800D4184A /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -570,6 +574,8 @@
 				F9E9B901243529EF00D4184A /* Info.plist */,
 				F9E9B902243529EF00D4184A /* MacLandmarks.entitlements */,
 				F9E9B8FB243529EE00D4184A /* Preview Content */,
+				F9E9B94E24353D8400D4184A /* LandmarkRow.swift */,
+				F9E9B9502435400800D4184A /* LandmarkList.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -1016,8 +1022,10 @@
 				F9E9B94C24352FE400D4184A /* Data.swift in Sources */,
 				F9E9B94924352FE400D4184A /* Profile.swift in Sources */,
 				F9E9B94D24352FE400D4184A /* Hike.swift in Sources */,
+				F9E9B9512435400800D4184A /* LandmarkList.swift in Sources */,
 				F9E9B8F6243529E900D4184A /* AppDelegate.swift in Sources */,
 				F9E9B94B24352FE400D4184A /* UserData.swift in Sources */,
+				F9E9B94F24353D8400D4184A /* LandmarkRow.swift in Sources */,
 				F9E9B94A24352FE400D4184A /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
