@@ -80,6 +80,7 @@
 		F98AB2E52435EA010059DC8C /* NavigationMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98AB2E42435EA010059DC8C /* NavigationMaster.swift */; };
 		F98AB2E62435EBB80059DC8C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9702D7F2427A4B800C9EE70 /* CircleImage.swift */; };
 		F98AB2E72435EC6F0059DC8C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9702D812427A6E200C9EE70 /* MapView.swift */; };
+		F98AB2E92435F32E0059DC8C /* NavigationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98AB2E82435F32E0059DC8C /* NavigationDetail.swift */; };
 		F99E5482242A2D67009ED0F4 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F99E5481242A2D67009ED0F4 /* charleyrivers.jpg */; };
 		F99E5486242A3442009ED0F4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E5485242A3442009ED0F4 /* UserData.swift */; };
 		F99E5489242AB9A3009ED0F4 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E5488242AB9A3009ED0F4 /* HexagonParameters.swift */; };
@@ -256,6 +257,7 @@
 		F9820B9F24326EC3001F2203 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		F98AB2E22435E1990059DC8C /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		F98AB2E42435EA010059DC8C /* NavigationMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMaster.swift; sourceTree = "<group>"; };
+		F98AB2E82435F32E0059DC8C /* NavigationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDetail.swift; sourceTree = "<group>"; };
 		F99E5481242A2D67009ED0F4 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		F99E5485242A3442009ED0F4 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		F99E5488242AB9A3009ED0F4 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
@@ -584,6 +586,7 @@
 				F9E9B9502435400800D4184A /* LandmarkList.swift */,
 				F98AB2E22435E1990059DC8C /* Filter.swift */,
 				F98AB2E42435EA010059DC8C /* NavigationMaster.swift */,
+				F98AB2E82435F32E0059DC8C /* NavigationDetail.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -1026,6 +1029,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98AB2E92435F32E0059DC8C /* NavigationDetail.swift in Sources */,
 				F9E9B8F8243529E900D4184A /* ContentView.swift in Sources */,
 				F98AB2E32435E1990059DC8C /* Filter.swift in Sources */,
 				F9E9B94C24352FE400D4184A /* Data.swift in Sources */,

@@ -6,25 +6,24 @@
 //  Copyright © 2020 Prajakta Kulkarni. All rights reserved.
 //
 
+
 import SwiftUI
 import MapKit
 
 struct MapView {
     var coordinate: CLLocationCoordinate2D
-    
+
     func makeMapView() -> MKMapView {
         MKMapView(frame: .zero)
     }
     
     func updateMapView(_ view: MKMapView, context: Context) {
-        let coordinate = CLLocationCoordinate2D(
-            latitude: 34.011286, longitude: -116.166868)
-        let span = MKCoordinateSpan(latitudeDelta: 2.0, longitudeDelta: 2.0)
+        let span = MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
         let region = MKCoordinateRegion(center: coordinate, span: span)
-        view.setRegion(region, animated: true)
+        view.setRegion(region, animated: false)
     }
-
 }
+
 #if os(macOS)
 
 extension MapView: NSViewRepresentable {
@@ -50,6 +49,7 @@ extension MapView: UIViewRepresentable {
 }
 
 #endif
+
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
         MapView(coordinate: landmarkData[0].locationCoordinate)
