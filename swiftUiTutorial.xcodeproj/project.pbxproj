@@ -76,6 +76,7 @@
 		F9820BC124327F96001F2203 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9702D9724290EEF00C9EE70 /* turtlerock.jpg */; };
 		F9820BC224327F96001F2203 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9702D9424290EEF00C9EE70 /* twinlake.jpg */; };
 		F9820BC324327F96001F2203 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9702D9924290EEF00C9EE70 /* umbagog.jpg */; };
+		F98AB2E32435E1990059DC8C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98AB2E22435E1990059DC8C /* Filter.swift */; };
 		F99E5482242A2D67009ED0F4 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F99E5481242A2D67009ED0F4 /* charleyrivers.jpg */; };
 		F99E5486242A3442009ED0F4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E5485242A3442009ED0F4 /* UserData.swift */; };
 		F99E5489242AB9A3009ED0F4 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99E5488242AB9A3009ED0F4 /* HexagonParameters.swift */; };
@@ -250,6 +251,7 @@
 		F9820B9C24326EC3001F2203 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9820B9E24326EC3001F2203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9820B9F24326EC3001F2203 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F98AB2E22435E1990059DC8C /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		F99E5481242A2D67009ED0F4 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		F99E5485242A3442009ED0F4 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		F99E5488242AB9A3009ED0F4 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
@@ -576,6 +578,7 @@
 				F9E9B8FB243529EE00D4184A /* Preview Content */,
 				F9E9B94E24353D8400D4184A /* LandmarkRow.swift */,
 				F9E9B9502435400800D4184A /* LandmarkList.swift */,
+				F98AB2E22435E1990059DC8C /* Filter.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -1019,6 +1022,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9E9B8F8243529E900D4184A /* ContentView.swift in Sources */,
+				F98AB2E32435E1990059DC8C /* Filter.swift in Sources */,
 				F9E9B94C24352FE400D4184A /* Data.swift in Sources */,
 				F9E9B94924352FE400D4184A /* Profile.swift in Sources */,
 				F9E9B94D24352FE400D4184A /* Hike.swift in Sources */,
